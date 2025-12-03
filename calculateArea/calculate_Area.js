@@ -6,6 +6,5 @@ function calculRectange() {
     width = parseFloat(document.getElementById('width').value);
 
     let area = length * width;
+    document.getElementById('result').innerText = `le mètres carré de ce réctangle est de : ${area}`;
 }
-
-document.getElementById('result').innerText = `le mètres carré de ce réctangle est de : ${area}`;
